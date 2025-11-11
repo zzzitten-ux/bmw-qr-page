@@ -269,6 +269,13 @@ body {
     color: #666;
 }
 
+.price-footnote {
+    display: block;
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 4px;
+}
+
 /* Card Images Background - Only for charging card service card */
 .service-card:has(.card-icon i.fa-credit-card) {
     position: relative;
@@ -1521,10 +1528,11 @@ html {
 .benefit-cards {
     display: flex;
     gap: 32px;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 24px;
+    padding: 0 20px;
 }
 .benefit-card {
     background: #fff;
@@ -1587,6 +1595,8 @@ html {
         flex-direction: column;
         align-items: center;
         gap: 14px;
+        justify-content: center;
+        padding: 0;
     }
     .benefit-card {
         width: 98vw;

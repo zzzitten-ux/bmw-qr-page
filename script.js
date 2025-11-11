@@ -9,8 +9,8 @@ const modalContent = {
     'registration-deadline': {
         title: '등록 기한 안내',
         content: `
-            <h3><b>차량 출고일 기준 1년 이내 등록 필수</b></h3>
-            <p style="font-size:0.9rem;line-height:1.8;margin-bottom:20px;">BMW 전기차 충전 프로모션 혜택을 받기 위해서는<br>차량 출고일 기준 1년 이내에 BMW Charging App을 통해 회원가입 및 차량 등록을 완료해야 합니다.</p>
+            <h3><b>차량 등록일 기준 1년 이내 등록 필수</b></h3>
+            <p style="font-size:0.9rem;line-height:1.8;margin-bottom:20px;">BMW 전기차 충전 프로모션 혜택을 받기 위해서는<br>차량 등록일 기준 1년 이내에 BMW Charging App을 통해 회원가입 및 차량 등록을 완료해야 합니다.</p>
             
             <div class="warning-box">
                 <strong>⚠️ 중요 :</strong> 등록 기한 내 미가입 시, 모든 서비스 혜택 제공이 불가합니다.
@@ -18,8 +18,8 @@ const modalContent = {
             
             <h3>🔹 등록 기한 확인 방법</h3>
             <ol>
-                <li>차량 출고일은 <b>차량등록증</b>에서 확인할 수 있습니다.</li>
-                <li><b>BMW 딜러</b>를 통해 정확한 출고일을 문의하실 수도 있습니다.</li>
+                <li>차량 등록일은 <b>차량등록증</b>에서 확인할 수 있습니다.</li>
+                <li><b>BMW 딜러</b>를 통해 정확한 등록일을 문의하실 수도 있습니다.</li>
             </ol>
             
             <div class="highlight">
@@ -258,7 +258,7 @@ const modalContent = {
             <h3><b>로밍 충전요금 할인 (Special Tariff)</b></h3>
             <ul>
                 <li><b>적용 대상:</b> <b>차지비와 제휴된 로밍 충전사(민간 제휴사)</b></li>
-                <li><b>요금:</b> <b>315원/kWh</b> (2023.08.01 기준, BMW 충전 포인트 결제 시)</li>
+                <li><b>요금:</b> <b>315원/kWh</b> (2023.08.01 기준, BMW 충전 크레딧 결제 시)</li>
             </ul>
             <h4 style="margin-top:18px;"><b>미적용 대상(일반 요금 적용)</b></h4>
             <ul>
@@ -268,7 +268,7 @@ const modalContent = {
                 <li><b>제주도청(320원)</b></li>
             </ul>
             <div class="info-box">
-                <b>상기 요금은 BMW 충전 포인트 결제 시에만 유효</b>하며, 포인트 및 혜택 소진 이후에는 <b>일반 로밍 요금이 적용</b>됩니다.<br>
+                <b>상기 요금은 BMW 충전 크레딧 결제 시에만 유효</b>하며, 크레딧 및 혜택 소진 이후에는 <b>일반 로밍 요금이 적용</b>됩니다.<br>
                 <b>충전요금 할인은 시장 상황에 따라 변동</b>될 수 있습니다.
             </div>
             <div class="highlight">
@@ -441,7 +441,7 @@ const modalContent = {
                 <li>BMW 전용 충전기로 안전하고 빠른 충전</li>
                 <li>BMW Charging App으로 간편한 결제 및 이용</li>
                 <li>전국 주요 지역에 설치된 BMW 차징스테이션</li>
-                <li>24시간 이용 가능한 편리한 서비스</li>
+                <li>24시간 이용 가능한 편리한 서비스<br><span style="font-size:0.9rem;color:#666;">(일부 충전소는 운영시간을 확인해주세요)</span></li>
             </ul>
             <h3>이용 방법</h3>
             <ol style="font-size:1.05rem;line-height:2.2;margin-bottom:20px;">
@@ -452,7 +452,7 @@ const modalContent = {
             </ol>
             
             <div class="warning-box" style="margin-top:20px;">
-                <strong>⚠️ BMW 차징스테이션의 위치 및 상세 정보는<br>&nbsp;&nbsp;&nbsp;&nbsp;BMW Charging App에서 확인하실 수 있습니다.</strong>
+                <strong>⚠️ BMW 차징스테이션의 위치 및 상세 정보는<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BMW Charging App에서 확인하실 수 있습니다.</strong>
             </div>
         `
     }
