@@ -155,7 +155,7 @@ const modalContent = {
     'join-step-1': {
         title: '1. BMW Charging App 설치',
         content: `
-            <img src="이미지 파일/앱 이미지.png" alt="BMW Charging 앱 아이콘" style="width:72px;height:72px;display:block;margin:0 auto 16px;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+            <img src="이미지 파일/app-icon.png" alt="BMW Charging 앱 아이콘" style="width:72px;height:72px;display:block;margin:0 auto 16px;border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
             <div style="display:flex;gap:12px;justify-content:center;margin-bottom:16px;flex-wrap:wrap;">
               <a href="https://apps.apple.com/kr/app/bmw-charging/id1439320862" target="_blank" class="btn btn-primary" style="background:#003366;min-width:140px;margin-bottom:6px;">
                 <i class="fab fa-apple"></i> iPhone 다운로드
@@ -171,7 +171,7 @@ const modalContent = {
         title: '2. 차량 정보 입력',
         content: `
             <div style="display:flex;justify-content:center;margin-bottom:16px;">
-                <img src="이미지 파일/2. 차량 정보 입력.png" alt="차량 정보 입력" style="width:100%;max-width:350px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                <img src="이미지 파일/vehicle-info.png" alt="차량 정보 입력" style="width:100%;max-width:350px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
             </div>
             <p><b>차량번호</b>와 <b>소유자명</b>을 정확하게 입력해주세요.<br>차량등록증을 참고하면 쉽게 확인할 수 있습니다.</p>
             <div style="background:#f8f9fa;border-radius:8px;padding:10px 14px;margin-top:8px;font-size:0.9rem;">
@@ -183,18 +183,18 @@ const modalContent = {
         title: '3. 충전카드 등록',
         content: `
             <div style="display:flex;justify-content:center;align-items:center;gap:18px;margin-bottom:12px;flex-wrap:wrap;">
-                <img src="이미지 파일/3. 충전카드 등록.png" alt="충전카드 등록 예시" style="width:100%;max-width:110px;display:block;margin-right:36px;">
+                <img src="이미지 파일/charging-card-register.png" alt="충전카드 등록 예시" style="width:100%;max-width:110px;display:block;margin-right:36px;">
                 <div style="display:flex;flex-direction:column;align-items:center;gap:18px;">
                     <span style="font-size:1.05rem;color:#003366;font-weight:700;margin-bottom:2px;">카드형</span>
                     <div style="display:flex;gap:18px;align-items:flex-end;">
-                        <img src="이미지 파일/참고. 충전카드(카드형).png" alt="충전카드 카드형" style="width:100%;max-width:80px;border-radius:3px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                        <img src="이미지 파일/charging-card-standard.png" alt="충전카드 카드형" style="width:100%;max-width:80px;border-radius:3px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
                         <img src="이미지 파일/card_i7.png" alt="충전카드 i7 카드형" style="width:100%;max-width:80px;border-radius:3px;">
 
                     </div>
                     <span style="font-size:1.05rem;color:#003366;font-weight:700;margin:14px 0 2px 0;">키링형</span>
                     <div style="display:flex;gap:18px;align-items:flex-end;">
-                    <img src="이미지 파일/참고. 충전카드(키링형).png" alt="충전카드 키링형" style="width:100%;max-width:60px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-                        <img src="이미지 파일/참고. 충전카드(i7 키링형).png" alt="충전카드 i7 키링형" style="width:100%;max-width:60px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                    <img src="이미지 파일/charging-card-keyring.png" alt="충전카드 키링형" style="width:100%;max-width:60px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                        <img src="이미지 파일/charging-card-i7-keyring.png" alt="충전카드 i7 키링형" style="width:100%;max-width:60px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@ const modalContent = {
         content: `
             <p style="font-size:0.98rem;text-align:left;margin-bottom:8px;">등록된 차량 정보 확인 후, <b>신차 구매 혜택</b>이 지급됩니다.</p>
             <div style="display:flex;justify-content:center;margin-bottom:16px;">
-                <img src="이미지 파일/4. 신차구매혜택.png" alt="신차구매혜택" style="width:100%;max-width:120px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                <img src="이미지 파일/new-car-benefit.png" alt="신차구매혜택" style="width:100%;max-width:120px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
             </div>
             <p style="margin-top:8px;font-size:0.98rem;">※ 단일 상품의 경우 자동지급됩니다.</p>
             <div style="margin-top:18px;">
@@ -431,7 +431,7 @@ const modalContent = {
             <h3>BMW 차징허브라운지</h3>
             <p style="font-size:0.9rem;line-height:1.8;margin-bottom:12px;">BMW 그룹 코리아의 전 세계 첫 라운지형 급속 충전소인 BMW 차징 허브 라운지는 전기차 충전과 카페를 동시에 이용할 수 있는 특화된 전기차 충전소입니다.</p>
             <div style="display:flex;justify-content:center;align-items:center;margin-bottom:16px;width:100%;">
-                <img src="이미지 파일/CHARGING HUB.png" alt="BMW CHARGING HUB" style="max-width:500px;max-height:250px;width:auto;height:auto;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);object-fit:cover;">
+                <img src="이미지 파일/charging-hub.png" alt="BMW CHARGING HUB" style="max-width:500px;max-height:250px;width:auto;height:auto;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.08);object-fit:cover;">
             </div>
             <div class="highlight" style="margin-bottom:16px;">
                 <a href="https://blog.naver.com/bmwgroupkorea/223786870302" target="_blank" style="color:#003366;text-decoration:underline;font-weight:500;">차징허브라운지 상세 안내 보기</a>

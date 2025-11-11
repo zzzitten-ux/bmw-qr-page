@@ -290,10 +290,10 @@ body {
     right: 0;
     bottom: 0;
     background-image: 
-        url('이미지 파일/참고. 충전카드(카드형).png'),
+        url('이미지 파일/charging-card-standard.png'),
         url('이미지 파일/card_i7.png'),
-        url('이미지 파일/참고. 충전카드(키링형).png'),
-        url('이미지 파일/참고. 충전카드(i7 키링형).png');
+        url('이미지 파일/charging-card-keyring.png'),
+        url('이미지 파일/charging-card-i7-keyring.png');
     background-size: 180px auto, 180px auto, 120px auto, 120px auto;
     background-position: calc(100% - 30px) 15%, calc(100% - 30px) 60%, calc(100% - 100px) 85%, calc(100% - 30px) 85%;
     background-repeat: no-repeat;
